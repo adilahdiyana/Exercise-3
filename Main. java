@@ -4,29 +4,30 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		PencilCase Kipling = new PencilCase();
-				
-		System.out.println("Brand name \t: " + Kipling.brand);
-		System.out.println("Color of brand \t: " + Kipling.color);
-		System.out.println("Material of brand \t" + Kipling.material);
-		System.out.println("Shape of brand? (cylindrical/round) \t: " + Kipling.shape);
-		System.out.println("Dimensions of brand \t: " + Kipling.dimensions + "inches");
-		System.out.println("Price of brand \t: " + Kipling.price + "dollars");
-		System.out.println("Weight of brand \t: " + Kipling.weight + "ounces");
-		System.out.println("Rating of brand \t: " + Kipling.rating + "ratings");
+
+		PencilCase Kipling = new PencilCase();			
+		System.out.println("Brand name \t\t: " + Kipling.brand);
+		System.out.println("Color of brand \t\t: " + Kipling.color);
+		System.out.println("Material of brand \t: " + Kipling.material);
+		System.out.println("Shape of case? \t\t: " + Kipling.shape);
+		System.out.println("Dimensions of brand \t: " + Kipling.dimensions + " inches");
+		System.out.println("Price of brand \t\t: " + Kipling.price + " dollars");
+		System.out.println("Weight of brand \t: " + Kipling.weight + " ounces");
+		System.out.println("Rating of brand \t: " + Kipling.rating + " ratings");
 		System.out.println();
 	
-		PencilCase Kokuyo = new PencilCase("Kokuyo C2", "Navy Light Blue", "Zipper", "cylindrical", 43.83, 13.99, 2.08, 90.0);		
-		System.out.println("Brand name \t: " + Kokuyo.brand);
-		System.out.println("Color of brand \t: " + Kokuyo.color);
-		System.out.println("Material of brand \t" + Kokuyo.material);
-		System.out.println("Shape of brand? (cylindrical/round) \t: " + Kokuyo.shape);
-		System.out.println("Dimensions of brand \t: " + Kokuyo.dimensions + "inches");
-		System.out.println("Price of brand \t: " + Kokuyo.price + "dollars");
-		System.out.println("Weight of brand \t: " +Kokuyo.weight + "ounces");
-		System.out.println("Rating of brand \t: " + Kokuyo.rating + "ratings");
+		PencilCase Kokuyo = new PencilCase("Kokuyo C2", "Navy Light Blue", "Zipper","Cylindrical", 43.83, 13.99, 2.08, 90.0);		
+		System.out.println("Brand name \t\t: " + Kokuyo.brand);
+		System.out.println("Color of brand \t\t: " + Kokuyo.color);
+		System.out.println("Material of brand \t: " + Kokuyo.material);
+		System.out.println("Shape of case? \t\t: " + Kokuyo.shape);
+		System.out.println("Dimensions of brand \t: " + Kokuyo.dimensions + " inches");
+		System.out.println("Price of brand \t\t: " + Kokuyo.price + " dollars");
+		System.out.println("Weight of brand \t: " +Kokuyo.weight + " ounces");
+		System.out.println("Rating of brand \t: " + Kokuyo.rating + " ratings");
 		System.out.println();
 		
 	}
+
 
 }
